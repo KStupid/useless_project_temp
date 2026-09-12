@@ -84,14 +84,15 @@ python screen15.py
 ### Project Documentation
 
 #### Screenshots
-![Project Screenshot](doc/Screenshot_of_the_project.png)
-*Desktop overlay in action showing screen visibility status based on audio input.*
 
-![Project Overview Image](doc/image.png)
-*SCREAM LAPTOP project demonstration image.*
+![Partial Desktop Visibility](doc/Screenshot_of_the_project.png)
+*1. Partial desktop visibility during moderate volume/shouting.*
 
-![Project Interface Image](doc/image%20copy.png)
-*SCREAM LAPTOP additional interface screenshot.*
+![Full Visibility When Screaming](doc/image.png)
+*2. Desktop completely revealed when screaming at maximum capacity.*
+
+![Restored View After Stopping Code](doc/image%20copy.png)
+*3. Desktop view fully restored after exiting the application.*
 
 #### Diagrams
 ```
