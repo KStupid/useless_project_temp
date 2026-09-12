@@ -90,6 +90,9 @@ python screen15.py
 ![Project Overview Image](doc/image.png)
 *SCREAM LAPTOP project demonstration image.*
 
+![Project Interface Image](doc/image%20copy.png)
+*SCREAM LAPTOP additional interface screenshot.*
+
 #### Diagrams
 ```
 +-------------------+      +-------------------+      +-------------------+      +-------------------+
