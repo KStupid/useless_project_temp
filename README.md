@@ -88,8 +88,8 @@ python screen15.py
 ![Partial Desktop Visibility](doc/Screenshot_of_the_project.png)
 *1. Partial desktop visibility during moderate volume/shouting.*
 
-![Full Visibility When Screaming](doc/image.png)
-*2. Desktop completely revealed when screaming at maximum capacity.*
+![Total Darkness Without Screaming](doc/image.png)
+*2. Total pitch-black screen overlay when quiet / without screaming.*
 
 ![Restored View After Stopping Code](doc/image%20copy.png)
 *3. Desktop view fully restored after exiting the application.*
