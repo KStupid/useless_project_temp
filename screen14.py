@@ -63,9 +63,9 @@ def main():
         stream_callback=audio_callback
     )
 
-    print("=== DUAL-DIRECTION ULTRA-SMOOTH SCREAM OVERLAY ACTIVE ===")
+    print("=== ULTRA-SMOOTH DECAY SCREAM OVERLAY ACTIVE ===")
     print(f"[*] Screen Resolution: {SCREEN_W}x{SCREEN_H}")
-    print("[*] Screen opens smoothly when screaming AND glides back slowly when quiet.")
+    print("[*] Screen uncovers fast on scream, glides back to black slowly.")
     print("Press Ctrl+C to exit.\n")
 
     stream.start_stream()
@@ -85,18 +85,17 @@ def main():
             else:
                 target_ratio = 1.0  # Target full blackout when quiet
 
-            # --- DUAL-DIRECTION SMOOTHING (BOTH SIDES SMOOTH) ---
+            # --- ASYMMETRIC SMOOTHING ---
+            # Fast opening (0.40) | Slow cinematic closing (0.012)
             if target_ratio < smoothed_ratio:
-                # SCREAMING / UNCOVERING: Smooth fluid opening (Lower = smoother/slower)
-                alpha = 0.08
+                alpha = 0.40   # Scream reaction speed (instant opening)
             else:
-                # QUIET / COVERING: Slow cinematic return to black
-                alpha = 0.012
+                alpha = 0.012  # Blackout decay speed (lower = slower glide back to black)
 
             smoothed_ratio = (alpha * target_ratio) + ((1.0 - alpha) * smoothed_ratio)
 
-            # High 0.5% quantization steps (200) for ultra-smooth gliding
-            current_step = round(smoothed_ratio * 200) / 200.0
+            # Fine 1% quantization steps (100) for smooth gliding
+            current_step = round(smoothed_ratio * 100) / 100.0
 
             if current_step != last_applied_step:
                 set_dzen_cover(current_step)
