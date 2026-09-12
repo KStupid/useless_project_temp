@@ -12,17 +12,20 @@
 ### Project Description
 SCREAM LAPTOP (Scream-to-See / S2S) is the ultimate high-stress human-computer interface. By default, your Linux PC assumes you are unconscious, compromised, or absent, maintaining a 100% pitch-black desktop overlay. The only way to reveal your display and get work done is by continuously screaming into your microphone at maximum vocal capacity.
 
-###  The Problem (that doesn't exist)
-Traditional computer security relies on boring mechanisms like passwords, biometrics, or inactivity timeouts. But what if an intruder physically pushes you away from your desk? Normal screens stay wide open, exposing your terminal history, open tabs, and confidential files to anyone with eyes. Standard lock screens take seconds to trigger—far too slow for high-stakes privacy defense.
+### 🎭 The Problem (that doesn't exist)
+Desktop environments are designed around the flawed assumption that human lungs and computer monitors should operate independently. If your CPU fans have to spin at maximum RPM just to keep your system running, it is fundamentally unfair that your lungs get to sit there doing low-effort, silent breathing. Silent compute power is an unaccountable waste of human respiratory capacity.
 
-###  The Solution (that nobody asked for)
-Introducing **Scream-to-See (S2S)**—a zero-trust security paradigm:
-- **Silence or Normal Talking?** 100% total darkness.
-- **Mild Shouting?** A pathetic 8% screen visibility.
-- **Full-Throated Bloodcurdling Scream?** Smoothly pulls back the void, granting full access to your desktop.
-- **Stop Screaming?** The dark void glides back over your screen within seconds.
+### 💡 The Solution (that nobody asked for)
+**Scream-to-See (S2S)**: An ultra-smooth, audio-reactive desktop overlay that forces human oxygen consumption to scale directly with screen output.
 
-Features a custom dual-stage exponential moving average (EMA) filter for buttery-smooth transitions, non-linear dynamic range mapping (exponent = 6.0), and dynamic audio capture.
+By default, your monitor assumes your lungs are lazy and maintains a 100% pitch-black overlay. The only way to earn desktop pixels is to continuously match your system's thermal load by screaming into your microphone at maximum vocal power.
+
+- **Quiet Breathing / Normal Speech**: 100% total darkness.
+- **Moderate Shouting**: A pathetic 12% desktop visibility.
+- **Full-Throated Bloodcurdling Scream**: Smoothly forces back the void, granting access to your open windows.
+- **Running Out of Breath?** The dark void glides back over your monitor in seconds.
+
+Powered by dual-stage exponential moving average (EMA) motion filters, non-linear dynamic range mapping, and dynamic ALSA audio capture on Arch/EndeavourOS.
 
 ---
 
