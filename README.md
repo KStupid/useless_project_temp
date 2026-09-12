@@ -10,13 +10,19 @@
 - Member 2: KARANJITH KJ - Ahalia School of Engineering and Technology
 
 ### Project Description
-SCREAM LAPTOP is an audio-reactive privacy and focus system for your computer. By default, your entire screen is covered by a pitch-black void overlay. The only way to reveal your desktop and get work done is by constantly screaming into your microphone.
+SCREAM LAPTOP (Scream-to-See / S2S) is the ultimate high-stress human-computer interface. By default, your Linux PC assumes you are unconscious, compromised, or absent, maintaining a 100% pitch-black desktop overlay. The only way to reveal your display and get work done is by continuously screaming into your microphone at maximum vocal capacity.
 
-### The Problem (that doesn't exist)
-Laptops are too easy to look at, allowing nosy shoulder-surfers to peek at your private messages and work. Traditional lock screens and privacy filters are far too quiet and polite.
+### 🎭 Motivation & The Problem (that doesn't exist)
+Traditional computer security relies on boring mechanisms like passwords, biometrics, or inactivity timeouts. But what if an intruder physically pushes you away from your desk? Normal screens stay wide open, exposing your terminal history, open tabs, and confidential files to anyone with eyes. Standard lock screens take seconds to trigger—far too slow for high-stakes privacy defense.
 
-### The Solution (that nobody asked for)
-A sound-driven overlay system! Using real-time audio amplitude analysis, your display stays hidden behind a black overlay unless you maintain a high-decibel scream. The louder you scream, the clearer your desktop becomes; as soon as you fall silent, the screen glides smoothly back into total darkness.
+### 💡 The Solution (that nobody asked for)
+Introducing **Scream-to-See (S2S)**—a zero-trust security paradigm:
+- **Silence or Normal Talking?** 100% total darkness.
+- **Mild Shouting?** A pathetic 8% screen visibility.
+- **Full-Throated Bloodcurdling Scream?** Smoothly pulls back the void, granting full access to your desktop.
+- **Stop Screaming?** The dark void glides back over your screen within seconds.
+
+Features a custom dual-stage exponential moving average (EMA) filter for buttery-smooth transitions, non-linear dynamic range mapping (exponent = 6.0), and dynamic audio capture.
 
 ---
 
